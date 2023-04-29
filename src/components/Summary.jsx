@@ -7,7 +7,9 @@ function Skill() {
             {
                 Data && Data.map( result => {
                     return (
-                        <div className='ability-container'>
+                        <div 
+                        className='ability-container'
+                        style={{backgroundColor: `${result.bgcolor}`}}>
                             <div className='ability'>
                                 <img src={ result.icon }/>
                                 <p>{result.category}</p>
