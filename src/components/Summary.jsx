@@ -12,7 +12,7 @@ function Skill() {
                         style={{backgroundColor: `${result.bgcolor}`}}>
                             <div className='ability'>
                                 <img src={ result.icon }/>
-                                <p>{result.category}</p>
+                                <p style={{color: `${result.color}`}}>{result.category}</p>
                             </div>
                             <p>
                                 <span style={{fontWeight: 600}}>
