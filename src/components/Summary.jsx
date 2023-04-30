@@ -1,6 +1,6 @@
 import Data from '../assets/data.json'
 import ContinueBtn from './ContinueButton'
-// import reaction from '../images/icon-reaction.svg'
+import reaction from '../images/icon-reaction.svg'
 
 function Skill() {
     return (
@@ -12,7 +12,7 @@ function Skill() {
                         className='ability-container'
                         style={{backgroundColor: `${result.bgcolor}`}}>
                             <div className='ability'>
-                                <img src={result.icon}/>
+                                <img src={reaction}/>
                                 <p style={{color: `${result.color}`}}>{result.category}</p>
                             </div>
                             <p>
