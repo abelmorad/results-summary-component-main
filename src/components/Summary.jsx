@@ -12,7 +12,7 @@ function Skill() {
                         className='ability-container'
                         style={{backgroundColor: `${result.bgcolor}`}}>
                             <div className='ability'>
-                                <img src={reaction}/>
+                                <img src={result.icon}/>
                                 <p style={{color: `${result.color}`}}>{result.category}</p>
                             </div>
                             <p>
