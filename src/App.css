@@ -37,12 +37,14 @@
     width: 100%;
   }
 }
-.result-summary-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
+@media (min-width: 1440px) {
+  .result-summary-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
 }
 .result-container {
   display: grid;
