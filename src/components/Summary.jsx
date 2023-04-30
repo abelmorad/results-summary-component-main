@@ -1,6 +1,6 @@
-import Data from '../assets/data.json'
+import Data from '.././data.json'
 import ContinueBtn from './ContinueButton'
-import reaction from '../assets/images/icon-reaction.svg'
+// import reaction from '../images/icon-memory.svg'
 
 function Skill() {
     return (
