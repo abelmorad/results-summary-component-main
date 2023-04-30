@@ -6,8 +6,10 @@ function App() {
 
   return (
     <main id='root'>
-      <Result/>
-      <Summary/>
+      <section className='result-summary-container'>
+        <Result/>
+        <Summary/>
+      </section>
     </main>
   )
 }
